@@ -400,6 +400,7 @@
             </a>
         </div>
 
+
         <!-- Gallery Section -->
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             <!-- Image 1 -->
@@ -430,12 +431,16 @@
         <!-- Header -->
         <div class="flex justify-between items-center mb-8">
             <div>
-                <h2 class="text-3xl font-bold text-gray-900">Apa Kata Mereka?</h2>
-                <p class="text-gray-600 text-sm md:text-base mt-1">Testimoni dari pelanggan yang telah merasakan
-                    layanan terbaik kami.</p>
+                <h2
+                    class="text-3xl font-bold bg-gradient-to-r from-orange-500 to-yellow-400 text-transparent bg-clip-text">
+                    Apa Kata Mereka?
+                </h2>
+                <p class="text-gray-700 text-sm md:text-base mt-1">
+                    Testimoni dari pelanggan yang telah merasakan layanan terbaik kami.
+                </p>
             </div>
             <a href="{{ route('galeritestimoni') }}"
-                class="text-orange-500 font-semibold text-sm md:text-base hover:text-orange-600 transition duration-300">
+                class="text-orange-500 font-semibold text-sm md:text-base hover:text-yellow-500 transition duration-300">
                 Lihat Semua →
             </a>
         </div>
